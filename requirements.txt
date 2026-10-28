@@ -1,0 +1,7 @@
+pymatgen>=2024.1
+pandas>=2.0
+numpy>=1.24
+torch>=2.0
+e3nn>=0.5
+torch-geometric>=2.3
+# matten 需从 GitHub 安装: pip install git+https://github.com/wengroup/matten.git

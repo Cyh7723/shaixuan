@@ -1,0 +1,14 @@
+{
+ "Li2ZrCl6": {
+  "V_red": 1.25,
+  "V_ox": 4.46,
+  "Ehull_own_meV": 0.0,
+  "method": "GPD_openLi_mu=mu0-V_scan[-0.5,7.0]_tol=Ehull+50meV_SSE_VASP-Cl-corrected"
+ },
+ "Li3YCl6": {
+  "V_red": 0.75,
+  "V_ox": 4.37,
+  "Ehull_own_meV": 22.7,
+  "method": "GPD_openLi_mu=mu0-V_scan[-0.5,7.0]_tol=Ehull+50meV_SSE_VASP-Cl-corrected"
+ }
+}

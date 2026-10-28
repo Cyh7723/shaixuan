@@ -1,0 +1,20 @@
+# 大文件(可通过脚本复现)
+*.ckpt
+*.pack
+*.xyz
+10_缓存/
+__pycache__/
+*.pyc
+
+# 超大结果文件(>50MB, 脚本可再生成)
+03_反应产物/interface_reactions.jsonl
+11_Li3InCl6路线/组合筛选_Li3InCl6.csv
+11_Li3InCl6路线/AB反应能_Li3InCl6.jsonl
+02_MatTen力学/elastic_tensors.json
+
+# 日志
+09_日志/
+
+# 系统
+.DS_Store
+Thumbs.db
