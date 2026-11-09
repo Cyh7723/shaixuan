@@ -1,0 +1,3 @@
+﻿formula,mp_id,Er_Li,Eg,E3D,V_red,window,is_theoretical,tier,poorest,Ehull_meV,Er_Li3InCl6,pass_Li3InCl6,Er_Li2MgCl4,pass_Li2MgCl4,Er_LiAlCl4,pass_LiAlCl4,Er_Li3ErCl6,pass_Li3ErCl6,Er_Li3ScCl6,pass_Li3ScCl6,Er_Li2ZnCl4,pass_Li2ZnCl4,base_ok,e3d_ok,e3d_near,GVRH,Er_vs_Li2ZrCl6,Er_vs_Li3YCl6,SSE
+LiBr,mp-976280,0.0,4.9350000000000005,0.3125,-0.5,4.22,True,贫,Br,0.0,-0.0538,1,-0.0066,1,0.0,1,-0.0066,1,-0.0163,1,-0.0387,1,1,1,0,8.856,-0.0001,-0.0227,Li2ZrCl6
+LiCl,mp-1185319,0.0,6.646699999999999,0.2637,-0.5,4.82,True,中等,Cl,3.9,0.0,1,-0.0066,1,-0.0,1,0.0,1,-0.0163,1,-0.0127,1,1,1,0,7.459,0.0,-0.0227,Li2ZrCl6
