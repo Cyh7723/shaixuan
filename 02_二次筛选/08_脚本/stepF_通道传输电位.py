@@ -23,7 +23,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 NEW = os.path.dirname(ROOT)
 TOP = os.path.dirname(NEW)
 WS = os.path.join(TOP, "AB池双层筛选")
-OUT = os.path.join(NEW, "06_通道几何")
+OUT = os.path.join(TOP, "99_探索_支线", "06_通道几何")
 os.makedirs(OUT, exist_ok=True)
 
 
@@ -39,7 +39,7 @@ def f(x):
 def load_strict_ids():
     ids = set()
     for tag in ("LZC", "LYC"):
-        p = os.path.join(NEW, "01_阈值敏感性", f"strict_candidates_{tag}.csv")
+        p = os.path.join(TOP, "99_探索_支线", "01_阈值敏感性", f"strict_candidates_{tag}.csv")
         if os.path.exists(p):
             for r in csv.DictReader(open(p, encoding="utf-8-sig")):
                 ids.add(r["A"]); ids.add(r["B"])

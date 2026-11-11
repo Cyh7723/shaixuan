@@ -8,7 +8,7 @@ from collections import Counter, defaultdict
 ROOT = os.path.dirname(os.path.abspath(__file__))
 NEW = os.path.dirname(ROOT)
 TOP = os.path.dirname(NEW)
-OUT = os.path.join(NEW, "11_Li3InCl6路线")
+OUT = os.path.join(TOP, "99_探索_支线", "11_Li3InCl6路线")
 SSE = "Li3InCl6"
 
 ER_CUTS = [-0.10, -0.05, -0.03]
@@ -106,9 +106,9 @@ def main():
 
     # ---- 三 SSE 对比 ----
     lzc = {(r["A_formula"], r["B_formula"]) for r in csv.DictReader(
-        open(os.path.join(NEW, "01_阈值敏感性", "strict_candidates_LZC.csv"), encoding="utf-8-sig"))}
+        open(os.path.join(TOP, "99_探索_支线", "01_阈值敏感性", "strict_candidates_LZC.csv"), encoding="utf-8-sig"))}
     lyc = {(r["A_formula"], r["B_formula"]) for r in csv.DictReader(
-        open(os.path.join(NEW, "01_阈值敏感性", "strict_candidates_LYC.csv"), encoding="utf-8-sig"))}
+        open(os.path.join(TOP, "99_探索_支线", "01_阈值敏感性", "strict_candidates_LYC.csv"), encoding="utf-8-sig"))}
     lic = {(r["A_formula"], r["B_formula"]) for r in strict}
     triple = lzc & lyc & lic
     print(f"[三SSE] 严格档交集化学式对: LZC {len(lzc)}, LYC {len(lyc)}, Li3InCl6 {len(lic)}, 三者交集 {len(triple)}")

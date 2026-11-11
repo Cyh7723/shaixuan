@@ -69,7 +69,7 @@ def dominates(a, b, keys_dirs):
 
 
 def run(sse, tag):
-    strict_path = os.path.join(NEW, "01_阈值敏感性", f"strict_candidates_{tag}.csv")
+    strict_path = os.path.join(TOP, "99_探索_支线", "01_阈值敏感性", f"strict_candidates_{tag}.csv")
     rows = list(csv.DictReader(open(strict_path, encoding="utf-8-sig")))
     # 并入弹性
     ela = {r["mp_id"]: r for r in csv.DictReader(

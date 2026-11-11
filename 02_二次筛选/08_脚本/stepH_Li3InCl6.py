@@ -19,7 +19,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 NEW = os.path.dirname(ROOT)
 TOP = os.path.dirname(NEW)
 WS = os.path.join(TOP, "AB池双层筛选")
-OUT = os.path.join(NEW, "11_Li3InCl6路线")
+OUT = os.path.join(TOP, "99_探索_支线", "11_Li3InCl6路线")
 os.makedirs(OUT, exist_ok=True)
 
 NPROC = int(os.environ.get("NPROC", "12"))
